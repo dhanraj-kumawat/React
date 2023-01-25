@@ -2,6 +2,9 @@
 
 let first = "Raj";
 let last = "kumar";
+let verb = "is";
+let color = "Brown";
+let gender = "munda";
 
 // let fullName =   first+" "+ last;
 // in memory
@@ -9,8 +12,8 @@ let last = "kumar";
 
 // new method in js to save memory
 
-let fullName = `${first} ${last}`;
+let line = `${first} ${last} ${verb} a ${color} ${gender}.`;
 
-console.log(fullName);
+console.log(line);
 
 
